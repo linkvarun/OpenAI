@@ -11,7 +11,7 @@ sys.path.append(streamlit_path)
 from langchain import OpenAI
 from langchain.agents import create_pandas_dataframe_agent
 import pandas as pd
-API_KEY = "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"
+API_KEY = "Enter API key"
 
 def create_agent(filename: str):
     """
